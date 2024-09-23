@@ -15,7 +15,7 @@
     {
       packages = {
         # Define packages for each architecture
-        x86_64-linux = pkgs_x86_64.lib.callPackage ./default.nix { };
+        # x86_64-linux = pkgs_x86_64.lib.callPackage ./default.nix { };
         aarch64-linux = pkgs_aarch64.lib.callPackage ./default.nix { };
       };
 
