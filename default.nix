@@ -5,9 +5,9 @@ buildGoModule rec {
   version = "1";
 
   src = fetchFromGitHub {
-    owner = "joshmedeski";
+    owner = "zspekt";
     repo = pname;
-    rev = "555884f9f4dd2518d53a4e59c0df18ea444a5bfc";
+    rev = "81c538e2fe131b365ec8265fdd8c8522337352d2";
     hash = "sha256-pd+BRgkbnCHLPeQDCxA3IlQl+rDbaQyPXJ+JiOAPt9U=";
   };
 
