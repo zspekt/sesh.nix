@@ -7,7 +7,7 @@ buildGoModule rec {
   src = fetchFromGitHub {
     owner = "zspekt";
     repo = pname;
-    rev = "23112682c82122e0fe0de0a38c7bd9a42e1c1444";
+    rev = "ea5dc7da96dab8be726370c08a4252e7595b318d";
     hash = "sha256-vIHImJ9f//itNIG9TQY0c4l3DBAJ9heYV+EUy2KjmAw=";
   };
 
